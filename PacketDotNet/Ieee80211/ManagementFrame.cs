@@ -25,7 +25,7 @@ namespace PacketDotNet.Ieee80211;
         public PhysicalAddress BssId { get; set; }
 
         /// <summary>
-        /// DestinationAddress
+        /// Destination Address/Receiver Address
         /// </summary>
         public PhysicalAddress DestinationAddress { get; set; }
 
@@ -35,7 +35,7 @@ namespace PacketDotNet.Ieee80211;
         public SequenceControlField SequenceControl { get; set; }
 
         /// <summary>
-        /// SourceAddress
+        /// Source Address/Transmitter Address
         /// </summary>
         public PhysicalAddress SourceAddress { get; set; }
 

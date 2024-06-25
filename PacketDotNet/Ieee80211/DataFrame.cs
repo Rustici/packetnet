@@ -95,19 +95,25 @@ namespace PacketDotNet.Ieee80211;
             if (!FrameControl.ToDS && !FrameControl.FromDS)
             {
                 DestinationAddress = GetAddress(0);
+                ReceiverAddress = DestinationAddress;
                 SourceAddress = GetAddress(1);
+                TransmitterAddress = SourceAddress;
                 BssId = GetAddress(2);
             }
             else if (FrameControl.ToDS && !FrameControl.FromDS)
             {
                 BssId = GetAddress(0);
+                ReceiverAddress = BssId;
                 SourceAddress = GetAddress(1);
+                TransmitterAddress = SourceAddress;
                 DestinationAddress = GetAddress(2);
             }
             else if (!FrameControl.ToDS && FrameControl.FromDS)
             {
                 DestinationAddress = GetAddress(0);
+                ReceiverAddress = DestinationAddress;
                 BssId = GetAddress(1);
+                TransmitterAddress = BssId;
                 SourceAddress = GetAddress(2);
             }
             else

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net6.0;net7.0;net472</TargetFrameworks>
-    <Authors>Chris Morgan (chmorgan@gmail.com)</Authors>
+    <Authors>Chris Morgan (chmorgan@gmail.com), William Gawron</Authors>
     <LangVersion>latest</LangVersion>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\packetnet.snk</AssemblyOriginatorKeyFile>
@@ -10,13 +10,13 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageId>$(AssemblyName)</PackageId>
     <Description>High performance .NET assembly for dissecting and constructing network packets such as Ethernet, IP, TCP, UDP, etc.</Description>
-    <PackageLicense>https://github.com/dotpcap/packetnet/blob/master/LICENSE</PackageLicense>
+    <PackageLicense>https://github.com/Rustici/packetnet/blob/master/LICENSE</PackageLicense>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/dotpcap/packetnet</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Rustici/packetnet</PackageProjectUrl>
     <PackageTags>packet packets ethernet ip tcp udp icmp network</PackageTags>
     <PackageVersion>$(Version)</PackageVersion>
     <Pack>true</Pack>
-    <RepositoryUrl>https://github.com/dotpcap/packetnet</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Rustici/packetnet</RepositoryUrl>
     <LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
